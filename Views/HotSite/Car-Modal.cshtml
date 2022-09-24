@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+  </head>
+
+    <body>
+        <h2>Modal Example</h2>
+
+        <div class="container" >
+                <p class="center">Find car by plate:</p>                
+                <div class="div"><input  class="form-control" type="text" id="car-plate" name="plate"><br> </div>
+                <div class="div"><button class="btn" id="btn-open-modal" onclick="searchCarByLicencePlate()"> Search </button></div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">       
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <ul id="car-data""> </ul>
+          </div>      
+        </div>
+    </body>
+</html>
